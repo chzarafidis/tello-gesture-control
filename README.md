@@ -7,12 +7,9 @@
 Πρόβλημα:  
 For somereason when installing protobuf builder.py is missing in the related package.
 
-https://raw.githubusercontent.com/protocolbuffers/protobuf/main/python/google/protobuf/internal/builder.py
+copy [builder.py](https://raw.githubusercontent.com/protocolbuffers/protobuf/main/python/google/protobuf/internal/builder.py) and past it in {your env location}/site-packages/google/protobuf/internal/builder.py
 
-copied and pasted this code and made it into a .py then took that file and pasted it in {your env location}/site-packages/google/protobuf/internal/builder.py
 -------
-
-
 🏆 This project featured in [Official Google Dev Blog](https://developers.googleblog.com/2021/09/drone-control-via-gestures-using-mediapipe-hands.html)
 
 -------
