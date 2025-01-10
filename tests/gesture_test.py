@@ -11,6 +11,12 @@ import cv2 as cv
 import numpy as np
 import mediapipe as mp
 
+import sys
+import os
+current = os.path.dirname(os.path.realpath(__file__))
+parent = os.path.dirname(current)
+sys.path.append(parent)
+
 from utils import CvFpsCalc
 from model import KeyPointClassifier
 from model import PointHistoryClassifier
